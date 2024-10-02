@@ -82,6 +82,10 @@ a {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.submit-btn:hover {
+    background-color: #2f3926;
+    cursor: pointer;
+}
 
 .right {
     display: flex;
