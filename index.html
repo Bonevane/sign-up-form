@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="left">
+        <img class="left-background" src="images/leaves.jpg" alt="background">
+        <div class="logo-container">
+            <img src="images/odin-lined.png" alt="Odin Logo" width="96px">
+            <p class="logo-text norse">Odin</p>
+        </div>
+        <p class="logo-footnote">Photo by Halie West on Uplash</p>
+    </div>
+
+    <div class="right">
+        <div class="top">
+            <p>This is not a real online service! You now you need something like 
+                this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="mid">
+            <form action="">
+                <h2 class="form-head">Let's do this!</h2>
+                <div class="form">
+                    <div class="form-left">
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name" required>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" id="pass" name="pass" required>
+                            <span id="pass-message"></span>
+                        </div>
+                    </div>
+                        
+                    <div class="form-right">
+                        <div>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                        </div>
+                        
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div>
+                            <label for="pass_confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="pass_confirm" name="pass_confirm" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button type="submit" class="submit-btn">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
